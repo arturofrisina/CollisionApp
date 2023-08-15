@@ -49,7 +49,7 @@ code = '''injuredPersons = data['NUMBER OF PERSONS INJURED']
 maxInjuredPersons = injuredPersons.max()'''
 
 st.header('Where are most people injured in NYC?')
-st.markdown("First of all let's find out the maxinum number of injured persons in a single crash event")
+st.markdown("Let's find out the maxinum number of injured persons in a single crash event")
 st.code(code, language='python')
 st.markdown("The number of injured persons in a single crash event ranges from 0 to " + str(maxInjuredPersons))
 st.markdown('Below, you can choose how many collisions there are in a specific hour and filter the data based on the number of people injured. ')
