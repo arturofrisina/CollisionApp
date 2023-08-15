@@ -4,9 +4,11 @@ import numpy as np
 import pydeck as pdk
 import plotly.express as px
 
-st.title("Motor Vehicles Collision in New York City")
-st.header('A data science project')
-st.markdown("This project was created for educational purposes. Is a streamlit dashboard that can be used to analyze data from a very large and public dataset.")
+st.title("Motor Vehicles Collision in NYC")
+st.subheader("")
+st.subheader('A project by Arturo Frisina')
+st.markdown("This project was created for educational purposes. Is a streamlit interactive dashboard that can be used to analyze data gathered from a very large and public dataset.")
+st.subheader("")
 st.subheader('About the dataset')
 st.markdown('The Motor Vehicle Collisions crash table contains details on the crash event. Each row represents a crash event. The Motor Vehicle Collisions data tables contain information from all police reported motor vehicle collisions in NYC. The police report (MV104-AN) is required to be filled out for collisions where someone is injured or killed, or where there is at least $1000 worth of damage.')
 st.markdown('The dataset contains data gathered from **January 7, 2012** to the last update: **August 12, 2023**. For over 2 million rows and 29 columns.')
